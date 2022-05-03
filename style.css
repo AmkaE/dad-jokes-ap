@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	background: #023047;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 1em;
+	padding: 1em;
+	overflow: auto;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+	color: #fff;
+	padding-bottom: 0.5em;
+	text-transform: capitalize;
+}
+.container img {
+	width: 150px;
+}
+
+.container p {
+	padding: 1em 0;
+	font-size: 1.2em;
+}
+
+.container .btn {
+	padding: 0.7em 1.5em;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	background: slateblue;
+	color: #fff;
+	font-size: 1.2em;
+	text-transform: capitalize;
+	transition: transform 300ms linear;
+}
+
+.container .btn:active {
+	transform: scale(0.8);
+}
